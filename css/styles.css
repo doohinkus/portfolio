@@ -1,0 +1,42 @@
+body{
+  font-family: 'Bungee Inline', cursive;
+}
+nav {
+  border-radius: 0 !important;
+}
+a{
+  color: #E6E6DC !important;
+}
+a:hover{
+  color: #81A594 !important;
+}
+h2{
+  color: #E6E6DC;
+}
+.container h2{
+  color: #00628B;
+  text-align: center;
+}
+.col-md-4 h3{
+  color: #81A594;
+}
+.jumbotron{
+  margin-top: 30px;
+  background-color: #E6E6DC;
+}
+.col-md-3 p{
+  font-size: 13pt;
+}
+.shadow{
+  -webkit-box-shadow: -2px 3px 0px 1px rgba(179,175,179,1);
+  -moz-box-shadow: -2px 3px 0px 1px rgba(179,175,179,1);
+  box-shadow: -2px 3px 0px 1px rgba(179,175,179,1);
+}
+img{
+  float:left;
+
+}
+footer{
+  background-color:#81A594;
+
+}
