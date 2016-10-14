@@ -90,4 +90,9 @@ h2{
 .copyright{
   margin-top:1em;
   padding:3em;
+  float:right;
+}
+.modal-body{
+  font-size:28pt;
+  color: #00628B;
 }

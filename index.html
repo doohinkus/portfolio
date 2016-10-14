@@ -4,7 +4,9 @@
     <title>Rafael's Portfolio</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!--NAVIGATION-->
@@ -13,15 +15,15 @@
          <div class="collapse navbar-collapse">
             <a href="#" class="navbar-brand"><span class="glyphicon glyphicon glyphicon-hdd"></span></a>
             <ul class="nav navbar-nav">
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Epicodus Projects</a></li>
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="#bio">About Me</a></li>
+              <li><a href="#projects">Epicodus Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             <ul> <!--end collapse content -->
           </div> <!-- end div collapse -->
       </div><!--end container-->
     </nav> <!--end nav / top bar-->
   <!--TOP CONTENT-->
-     <div class="jumbotron">
+     <div class="jumbotron" id="bio">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -51,7 +53,7 @@
      </div><!--end jumbotron-->
 
     <div class="container">
-      <h2 class="center-me">Epicodus Projects</h2>
+      <h2 class="center-me" id="projects">Epicodus Projects</h2>
       <p class="center-me"><img src="img/projects.png" alt="projects image" /></p>
       <div class="row">
         <div class="col-md-4">
@@ -132,22 +134,22 @@
 
       <!--FOOTER CONTENT-->
   <footer>
-    <div class="container">
-      <h2 class="footer-heading">Contact Me</h2>
+    <div class="container" id="contact">
+      <h2 class="footer-heading" >Contact Me</h2>
 
       <div class="row center-me">
         <div class="col-md-4">
-          <p><a href="#" class="project-link">@doohinkus</a></p>
+          <p><a href="https://twitter.com/doohinkus" class="project-link">@doohinkus</a></p>
           <img src="img/twitter.png" class="twitter" alt="twitter logo" />
 
         </div><!--end col-md-4-->
         <div class="col-md-4">
-          <p><a href="#" class="project-link">LinkedIn Profile</a></p>
+          <p><a href="https://www.linkedin.com/in/rafael-perez" class="project-link">LinkedIn Profile</a></p>
           <img src="img/linkedin.png" class="linkedin" alt="twitter logo" />
 
         </div><!--end col-md-4-->
         <div class="col-md-4">
-          <p><a href="#" class="project-link">Gmail</a></p>
+          <p><a href="mailto:doohinkus@gmail.com" class="project-link">Gmail</a></p>
           <img src="img/email.png" class="email" alt="twitter logo" />
 
         </div><!--end col-md-4-->
@@ -155,16 +157,49 @@
 
       </div><!--end row-->
 
-    </div>
-          <p class="copyright"><span class="glyphicon glyphicon-copyright-mark"></span> 2016 Rafael Perez</p>
+    </div><!--end container-->
+
+
   </footer><!--end footer-->
 
+<!--ADDED MODAL-->
+
+
+<div class="container">
+  <h2>A Secret Message</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Me!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Thanks for Visiting</h4>
+        </div>
+        <div class="modal-body">
+          <p>I'm learning a lot at Epicodus!!!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!--STOPPED MODAL-->
 
 
 
 
     <!--ADD BOOTSTRAP JAVASCRIPT -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!--End Javascript-->
-
+  <!--End Javascript-->
+  <p class="copyright"><span class="glyphicon glyphicon-copyright-mark"></span> 2016 Rafael Perez</p>
   </body>
 </html>
