@@ -1,8 +1,12 @@
 body{
   font-family: 'Bungee Inline', cursive;
+  background-color: #fff;
 }
 nav {
   border-radius: 0 !important;
+}
+.navbar-custom{
+  background-color: #00628B;
 }
 a{
   color: #E6E6DC !important;
@@ -10,11 +14,21 @@ a{
 a:hover{
   color: #81A594 !important;
 }
+footer{
+  background-color:#81A594;
+  background-color: #ECECEC;
+  height: 450px;
+  padding-top: 20px;
+  clear:both;
+  margin-top:20px;
+}
 h2{
   color: #E6E6DC;
 }
 .container h2{
   color: #00628B;
+}
+.center-me{
   text-align: center;
 }
 .col-md-4 h3{
@@ -32,11 +46,48 @@ h2{
   -moz-box-shadow: -2px 3px 0px 1px rgba(179,175,179,1);
   box-shadow: -2px 3px 0px 1px rgba(179,175,179,1);
 }
-img{
-  float:left;
-
+.muted{
+  color: #777;
 }
-footer{
-  background-color:#81A594;
-
+.custom-bullet li{
+  display:block;
+  font-size:18pt;
+}
+.custom-bullet li:before{
+  display:block;
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size:14pt;
+  float: left;
+  margin-top: 4px;
+  color: #00628B;
+}
+.small{
+  width:10%;
+  float: right;
+}
+.footer-heading{
+  color: #00628B !important;
+  text-align: center;
+}
+.project-link {
+  color: #00628B !important;
+  font-size:14pt;
+}
+.project-link:hover{
+  text-decoration: none;
+}
+.twitter{
+  width:50%;
+}
+.linkedin{
+  width:35%;
+}
+.email{
+  width:40%;
+}
+.copyright{
+  margin-top:1em;
+  padding:3em;
 }
