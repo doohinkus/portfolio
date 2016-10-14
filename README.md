@@ -1,6 +1,6 @@
 # _Epicodus Individual Project_
 
-#### _A Portfolio page demonstrating what I've learned at Epicodus this week, 10/14/2016_
+#### _A portfolio page demonstrating what I've learned at Epicodus this week, 10/14/2016_
 
 #### By _**Rafael Perez**_
 
@@ -26,10 +26,10 @@ _If you have any issues with this application, please send me an e-mail: doohink
 
 ## Technologies Used
 
-_{HTML, CSS, Bootstrap.}_
+_HTML, CSS, Bootstrap._
 
 ### License
 
-*{MIT}*
+*MIT*
 
 Copyright (c) 2016 **_Rafael Perez_**
