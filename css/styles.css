@@ -22,8 +22,10 @@ footer{
   clear:both;
   margin-top:20px;
 }
+
 h2{
   color: #E6E6DC;
+  text-shadow: 1px 1px 0px rgba(160, 160, 160 ,1);
 }
 .container h2{
   color: #00628B;
