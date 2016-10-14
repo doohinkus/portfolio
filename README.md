@@ -13,6 +13,7 @@ _This is a portfolio webpage demonstrating what I've learned at Epicodus this we
 * _clone repository_
 * _open repository on dekstop_
 * _double click on "index.html" to open a Web Browser_
+*_or you [click here](https://doohinkus.github.io/portfolio/)_
 
 _If the double clicking doesn't launch your browser, then open a browser window and drag "index.html" into it._
 
